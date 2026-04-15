@@ -1,2 +1,2 @@
-ahora el sitio esta bien pero encuentro que necesita una mejor presentacion ahora agrega un mejor diseño visual, aplica varios estilos CSS mas trabajado , y mejora la distribucion del contenido
-pero dame el del html separado y el del style.css separado tambien
+agregale mas contenido a la pagina web como :actividades del evento,beneficios de asistir,invitados o expositores,preguntas frecuentes, inscripción o contacto.
+Agrega estilos CSS según sea necesario para .expositores-grid, .expositor-card, .faq-item, etc.

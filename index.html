@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <title>ExpoTech 2024 - Evento Tecnológico Abierto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+        header { background: #222; color: #fff; padding: 2rem 1rem; text-align: center; }
+        .presentacion { background: #4caf50; color: #fff; padding: 2rem 1rem; text-align: center; }
+        main { max-width: 900px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; }
+        section { margin-bottom: 2rem; }
+        h2 { color: #4caf50; }
+        footer { background: #222; color: #fff; text-align: center; padding: 1rem; }
+    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>ExpoTech 2024</h1>
+        <p>Evento Tecnológico Abierto a la Comunidad</p>
+    </header>
     <nav>
         <ul>
             <li><a href="#sobre">Sobre</a></li>
@@ -21,28 +34,74 @@
     </div>
     <main>
         <section id="sobre">
-            <h2>Sobre el Evento</h2>
-            <p>ExpoTech 2024 es un evento abierto que busca difundir los avances tecnológicos y premiar la creatividad de la comunidad. Está dirigido a estudiantes, profesionales y público general interesado en tecnología.</p>
+            <!-- Contenido existente -->
         </section>
-        <section id="proyectos">
-            <h2>Proyectos Ganadores</h2>
-            <div class="proyectos-grid">
-                <div class="proyecto-card">
-                    <h3>SmartHome AI</h3>
-                    <p>Automatización inteligente del hogar usando IA y sensores IoT.</p>
+        <section id="actividades">
+            <h2>Actividades del Evento</h2>
+            <ul>
+                <li>Conferencias magistrales sobre tecnología e innovación</li>
+                <li>Talleres prácticos de programación y robótica</li>
+                <li>Paneles de discusión con expertos</li>
+                <li>Demostraciones de proyectos y startups</li>
+                <li>Networking y espacios de colaboración</li>
+            </ul>
+        </section>
+        <section id="beneficios">
+            <h2>Beneficios de Asistir</h2>
+            <ul>
+                <li>Acceso a las últimas tendencias tecnológicas</li>
+                <li>Oportunidad de conectar con profesionales y empresas</li>
+                <li>Certificado de participación</li>
+                <li>Participación en sorteos y premios</li>
+                <li>Descuentos en cursos y capacitaciones</li>
+            </ul>
+        </section>
+        <section id="expositores">
+            <h2>Invitados y Expositores</h2>
+            <div class="expositores-grid">
+                <div class="expositor-card">
+                    <h3>Dra. Ana Torres</h3>
+                    <p>Experta en Inteligencia Artificial, Universidad Tech</p>
                 </div>
-                <div class="proyecto-card">
-                    <h3>EcoData</h3>
-                    <p>Plataforma de análisis ambiental para ciudades sostenibles.</p>
+                <div class="expositor-card">
+                    <h3>Ing. Luis Ramírez</h3>
+                    <p>Fundador de IoT Solutions</p>
                 </div>
-                <div class="proyecto-card">
-                    <h3>EduVR</h3>
-                    <p>Experiencias educativas inmersivas con realidad virtual.</p>
+                <div class="expositor-card">
+                    <h3>Lic. Marta Gómez</h3>
+                    <p>Directora de Innovación, GreenCity</p>
                 </div>
             </div>
         </section>
+        <section id="proyectos">
+            <!-- Contenido existente de proyectos ganadores -->
+        </section>
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-item">
+                <h4>¿Quiénes pueden asistir al evento?</h4>
+                <p>El evento está abierto a estudiantes, profesionales y público en general interesado en tecnología.</p>
+            </div>
+            <div class="faq-item">
+                <h4>¿Tiene costo la inscripción?</h4>
+                <p>La inscripción es gratuita, pero los cupos son limitados.</p>
+            </div>
+            <div class="faq-item">
+                <h4>¿Dónde se realizará el evento?</h4>
+                <p>En el Centro de Convenciones ExpoTech, Ciudad Central.</p>
+            </div>
+        </section>
         <section id="contacto">
-            <h2>Contacto</h2>
+            <h2>Inscripción y Contacto</h2>
+            <form action="mailto:info@expotech2024.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="submit">Enviar inscripción</button>
+            </form>
             <p>¿Tienes dudas? Escríbenos a <a href="mailto:info@expotech2024.com">info@expotech2024.com</a></p>
         </section>
     </main>
@@ -50,4 +109,3 @@
         &copy; 2024 ExpoTech. Todos los derechos reservados.
     </footer>
 </body>
-</html>
