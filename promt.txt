@@ -1,4 +1,7 @@
-ahora quiero adaptar mi pagina web ya que la pagina web sera revisado principalmente desde celulares lo que tienes que hacer es adpatar el diseño a pantallas pequeñas, asegurar que el contenido sea legibles y evitar problemas de visualizacion
-ahora hace lo mismo pero con este codigo solo adaptalo y no le cambies nada del diseño
-y que tengo que poner en el style.css?
-y como se veria el style.css todo
+ahora quiero hacer una mejora final lo que quiero agregar una sección de actividades destacadas utilizando tarjetas (cards). Cada tarjeta debe incluir:
+
+• nombre de la actividad,
+
+• breve descripción,
+
+• algún elemento visual (ícono o imagen). y no cambies el diseño principal de la pagina web
