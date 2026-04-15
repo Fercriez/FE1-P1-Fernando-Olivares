@@ -1,2 +1,4 @@
-agregale mas contenido a la pagina web como :actividades del evento,beneficios de asistir,invitados o expositores,preguntas frecuentes, inscripción o contacto.
-Agrega estilos CSS según sea necesario para .expositores-grid, .expositor-card, .faq-item, etc.
+ahora quiero adaptar mi pagina web ya que la pagina web sera revisado principalmente desde celulares lo que tienes que hacer es adpatar el diseño a pantallas pequeñas, asegurar que el contenido sea legibles y evitar problemas de visualizacion
+ahora hace lo mismo pero con este codigo solo adaptalo y no le cambies nada del diseño
+y que tengo que poner en el style.css?
+y como se veria el style.css todo

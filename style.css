@@ -6,6 +6,18 @@
     --text: #222;
     --white: #fff;
 }
+
+/* Dark mode variables */
+body.dark-mode {
+    --primary: #1565c0;
+    --secondary: #2e7d32;
+    --accent: #ffe082;
+    --bg: #181c23;
+    --text: #f5f7fa;
+    --white: #23272f;
+}
+
+/* Rest of your CSS remains unchanged */
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -206,4 +218,31 @@ form button {
 
 form button:hover {
     background: #388e3c;
+}
+
+/* Dark mode overrides for non-variable colors */
+body.dark-mode .proyecto-card {
+    background: #23272f;
+    box-shadow: 0 2px 8px rgba(67,160,71,0.15);
+}
+body.dark-mode .expositor-card {
+    background: #263238;
+    border-color: #388e3c;
+}
+body.dark-mode .faq-item {
+    background: #263238;
+    border-left-color: #81c784;
+}
+body.dark-mode form {
+    background: #23272f;
+    border-color: #388e3c;
+}
+body.dark-mode form label {
+    color: #81c784;
+}
+body.dark-mode form input,
+body.dark-mode form textarea {
+    background: #181c23;
+    color: #f5f7fa;
+    border-color: #333;
 }
