@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <title>ExpoTech 2024 - Evento Tecnológico Abierto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
-        header { background: #222; color: #fff; padding: 2rem 1rem; text-align: center; }
-        .presentacion { background: #4caf50; color: #fff; padding: 2rem 1rem; text-align: center; }
-        main { max-width: 900px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; }
-        section { margin-bottom: 2rem; }
-        h2 { color: #4caf50; }
-        footer { background: #222; color: #fff; text-align: center; padding: 1rem; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>ExpoTech 2024</h1>
-        <p>Evento Tecnológico Abierto a la Comunidad</p>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
     <div class="presentacion">
         <h2>¡Descubre los proyectos ganadores y conecta con la innovación!</h2>
         <p>Participa en ExpoTech 2024, el evento que reúne a estudiantes, profesionales y entusiastas de la tecnología.</p>
+        <a href="#proyectos" class="btn">Ver Proyectos Ganadores</a>
     </div>
     <main>
         <section id="sobre">
@@ -30,7 +26,20 @@
         </section>
         <section id="proyectos">
             <h2>Proyectos Ganadores</h2>
-            <p>En esta sección se mostrarán los proyectos ganadores del concurso tecnológico. ¡Próximamente más información!</p>
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <h3>SmartHome AI</h3>
+                    <p>Automatización inteligente del hogar usando IA y sensores IoT.</p>
+                </div>
+                <div class="proyecto-card">
+                    <h3>EcoData</h3>
+                    <p>Plataforma de análisis ambiental para ciudades sostenibles.</p>
+                </div>
+                <div class="proyecto-card">
+                    <h3>EduVR</h3>
+                    <p>Experiencias educativas inmersivas con realidad virtual.</p>
+                </div>
+            </div>
         </section>
         <section id="contacto">
             <h2>Contacto</h2>
