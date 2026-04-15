@@ -1,0 +1,1 @@
+contruye una primera version del sitio web donde le colocas el nombre del evento , descripcion general, y una estructura basica(secciones), y una zona destacada (encabezado o presentacion principal)
